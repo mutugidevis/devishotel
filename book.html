@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Room Booking</title>
+
+</head>
+
+<style>
+
+.topnav{
+            font-family: 'Times New Roman', Times, serif;
+            float: left;
+            overflow: hidden;
+            border: none;
+            border-radius: 10px;
+            
+            
+            
+            
+        } body {
+            font-family: cursive;
+            font-size: 1.4em;
+            margin-bottom: 0%;   }
+            label{
+                color: white;
+            }  .select{
+                color: black;
+                transition: 1s;
+                margin-right: 8px;
+                margin-left: 8px;
+            }   .select:hover{
+
+                color: deepskyblue;
+            }  a{
+        color: blue;
+    } a:hover{
+
+            color: red;}
+</style>
+
+<body>
+    <header style="background-color: #04AA6D;">
+        <center>
+            <div style="background-color: #04AA6D; width: 100%; color: white;" class="topnav">
+        <h1>LUCKYSTAR HOTEL</h1>
+        </center>
+        
+       
+            
+            
+<a style="padding-right: 350px; font-size: 1.7em; float: left; text-decoration: none; padding-left: 20px;" class="active" href="home.html">HOME</a>
+
+
+<a style="padding-right: 350px; font-size: 1.7em; text-decoration: none;" href="gallery.html">GALLERY</a>
+
+
+<a style="padding-right: 200px; font-size: 1.7em; text-decoration: none;" href="contact.html">CONTACT</a>
+</center>
+        </div>
+        
+    </header>
+
+    
+    <main>
+<h4>You need to fill the form below so as to book a room with us note if you book a
+     room you can only cancel in 3 hours time and your money is refunded to your account</h4>
+
+     <form>
+     <fieldset style="border-color: blue; border-radius: 8px;
+      border-width: 1px; background-image: url(food.jpg);
+      font-style: italic;">
+        <legend style="color: green;">
+            Luckystar Hotel Booking Form
+            </legend>
+            <div>
+                <div style="float: left; margin-right: 300px;">
+
+            <label for="name">First Name</label>
+            <input type="text" id="name" name="firstname" required>
+            <br><br>
+            <label style="padding-right: 5px;" for="Lname">Last Name</label>
+            <input type="text" id="Lname"  name="Lastname" required>
+            <br><br>
+            <label style="padding-right: 61px;" for="email">Email</label>
+            <input  type="email" id="email" name="emailAddress" required>
+        </div>
+        <div style="float: left;">
+<label style="padding-right: 7px;" for="tel">Telephone</label>
+<input type="tel" id="tel" name="telephoneNo" minlength="10"  maxlength="10" required>
+<br><br>
+
+<label for="idNo">Id Number</label>
+<input type="number" id="idNo" name="IDNUMBER" minlength="7" maxlength="8">
+<br><br>
+<select class="select" name="dropdown">
+    <option value="bedsitter">Bedsitter</option>
+    <option value="Single Room">Single Room</option>
+    <option value="One bedroom" selected>One Bedroom</option>
+    <option value="Two Bedroom">Two Bedroom</option>
+    <option value="Three bedroom">Three Bedroom</option>
+    
+
+</select><br>
+
+
+        </div>
+        <div>
+           
+            <button  type="submit">Submit</button>
+            <br><br>
+            <button type="reset">Reset</button>
+
+
+        </div>
+        
+            
+        </div>
+        
+        </fieldset>
+    </form>
+    <h4>After Filling And Submitting This Form You Will Have Successfully Booked A Room With Us.</h4>
+    
+    </main>
+    <footer style="text-align: center; text-decoration: none;">
+       
+        <h4><a href="home.html">Click to go back to homepage</a></h4>
+<p>&copy: All Rights Reserved.</p>
+    </footer>
+    
+</body>
+</html>
